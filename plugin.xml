@@ -21,7 +21,7 @@
           <true/>
           <key>NSExceptionDomains</key>
           <dict>
-            <key>manresa.cat</key>
+            <key>mobile-test.aixkz.com</key>
             <dict>
               <key>NSExceptionAllowsInsecureHTTPLoads</key>
               <true/>
