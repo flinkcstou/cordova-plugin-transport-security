@@ -13,7 +13,7 @@ cordova plugin add cordova-plugin-transport-security
 #### Latest version from GitHub
 
 ```
-cordova plugin add https://github.com/leecrossley/cordova-plugin-transport-security.git
+cordova plugin add https://github.com/flinkcstou/cordova-plugin-transport-security
 ```
 
 ## Apple guidance
