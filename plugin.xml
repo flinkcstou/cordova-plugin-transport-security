@@ -13,9 +13,27 @@
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
           <dict>
-              <key>NSAllowsArbitraryLoads</key>
+          <key>NSAllowsArbitraryLoads</key>
+          <false/>
+          <key>NSAllowsArbitraryLoadsInWebContent</key>
+          <true/>
+          <key>NSAllowsArbitraryLoadsForMedia</key>
+          <true/>
+          <key>NSExceptionDomains</key>
+          <dict>
+            <key>manresa.cat</key>
+            <dict>
+              <key>NSExceptionAllowsInsecureHTTPLoads</key>
               <true/>
+              <key>NSIncludesSubdomains</key>
+              <true/>
+              <key>NSExceptionRequiresForwardSecrecy</key>
+              <false/>
+              <key>NSExceptionMinimumTLSVersion</key>
+              <string>TLSv1.0</string>
+            </dict>
           </dict>
+        </dict>
       </config-file>
     </platform>
 </plugin>
